@@ -1,8 +1,0 @@
-name: Предложение
-description: Пожелания для улучшения
-labels: [status:triage, type:enhancement]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        # Раздел предложений находится [здесь] (https://github.com/octothorp-team/public-dobrograd/discussions)
