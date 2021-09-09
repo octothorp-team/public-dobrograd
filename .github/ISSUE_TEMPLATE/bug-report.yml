@@ -1,5 +1,6 @@
 name: Баг-репорт
 description: Если что-то работает не так
+title: "Баг: "
 labels: ["status:triage", "type:bug"]
 body:
   - type: markdown
@@ -30,6 +31,18 @@ body:
       label: Как это повторить?
       description: Пошагово опиши, как повторить эту ошибку
       placeholder: 1) Открыть меню на клавишу X. 2) Нажать на кнопку ABC. 3) ???
+    validations:
+      required: false
+  - type: textarea
+    id: console-errors
+    attributes:
+      label: Ошибки в консоли
+      description: Если при этом в консоли появлялись какие-то ошибки, скопируй их сюда
+      placeholder: |
+        [dobrograd] addons/octoteam/devteam:42: developers not found (work expected, got nil)
+          1. Work - [C]:-1
+            2. unknown - addons/octoteam/devteam:42
+      render: shell
     validations:
       required: false
   - type: input
