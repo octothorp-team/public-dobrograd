@@ -2,7 +2,6 @@ name: Предложение
 description: Пожелания для улучшения
 labels: [status:triage, type:enhancement]
 body:
-  
   - type: markdown
     attributes:
       value: |
