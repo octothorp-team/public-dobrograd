@@ -1,0 +1,9 @@
+blank_issues_enable: false
+contact_links:
+  - name: 💡 Предложение
+    url: https://github.com/octothorp-team/public-dobrograd/discussions
+    about: Пожелание для дальнейшего развития.
+  - name: 🔓 Уязвимость
+    url: https://octothorp.team/vulnerability?project=gmod-dobrograd
+    about: Ошибка, о которой не стоит говорить публично.
+
